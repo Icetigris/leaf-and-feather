@@ -3,6 +3,10 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 0;
   background-color: #c4c4c4;
+}
+
+.splash-screen {
+  max-width: 100%;
+  height: auto;
 }
