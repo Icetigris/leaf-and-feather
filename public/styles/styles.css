@@ -1,12 +1,72 @@
-body {
+@font-face{
+  font-family: Lexend-Thin;
+  src: url(../fonts/Lexend-Thin.woff2);
+}
+
+@font-face{
+  font-family: Lexend-Black;
+  src: url(../fonts/Lexend-Black.woff2);
+}
+
+@font-face{
+  font-family: Lexend-Bold;
+  src: url(../fonts/Lexend-Bold.woff2);
+}
+
+@font-face{
+  font-family: Lexend-ExtraBold;
+  src: url(../fonts/Lexend-ExtraBold.woff2);
+}
+
+@font-face{
+  font-family: Lexend-ExtraLight;
+  src: url(../fonts/Lexend-ExtraLight.woff2);
+}
+
+@font-face{
+  font-family: Lexend-Light;
+  src: url(../fonts/Lexend-Light.woff2);
+}
+
+@font-face{
+  font-family: Lexend-Medium;
+  src: url(../fonts/Lexend-Medium.woff2);
+}
+
+@font-face{
+  font-family: Lexend-Regular;
+  src: url(../fonts/Lexend-Regular.woff2);
+}
+
+@font-face{
+  font-family: Lexend-SemiBold;
+  src: url(../fonts/Lexend-SemiBold.woff2);
+}
+
+@font-face{
+  font-family: Lexend-Thin;
+  src: url(../fonts/Lexend-Thin.woff2);
+}
+
+body {  
+  font-family: Lexend-Light;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: #c4c4c4;
 }
 
-.splash-screen {
+p {
+  font-family: Lexend-Light;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+picture {
   max-width: 100%;
   height: auto;
 }
