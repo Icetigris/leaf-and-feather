@@ -1,9 +1,4 @@
 @font-face{
-  font-family: Lexend-Thin;
-  src: url(../fonts/Lexend-Thin.woff2);
-}
-
-@font-face{
   font-family: Lexend-Black;
   src: url(../fonts/Lexend-Black.woff2);
 }
@@ -49,7 +44,7 @@
 }
 
 body {  
-  font-family: Lexend-Light;
+  font-family: Lexend-ExtraLight;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,12 +54,13 @@ body {
 }
 
 p {
-  font-family: Lexend-Light;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+
 
 picture {
   max-width: 100%;
